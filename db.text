@@ -1,4 +1,7 @@
-CREATE DATABASE  ESTUDOS;
+create database loja;
+
+use loja;
+
 
 CREATE TABLE `endereco` (
   `codigo` int DEFAULT NULL,
@@ -17,4 +20,4 @@ CREATE TABLE `pessoa_endereco` (
   `fk_endereco` int DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
-INSERT INTO pessoa VALUES ( 1, 'VITORIA')
+INSERT INTO pessoa VALUES ( 1, 'HENDRYW')
