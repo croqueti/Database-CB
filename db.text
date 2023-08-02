@@ -1,23 +1,26 @@
-create database loja;
+/* create database loja;
 
 use loja;
 
 
 CREATE TABLE `endereco` (
-  `codigo` int DEFAULT NULL,
+  `codigo` int DEFAULT NULL, PRIMARY KEY,
   `rua` varchar(100) DEFAULT NULL,
   `endereco` varchar(100) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
 CREATE TABLE `pessoa` (
-  `codigo` int DEFAULT NULL,
+  `codigo` int DEFAULT NULL, PRIMARY KEY,
   `nome` varchar(100) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
 CREATE TABLE `pessoa_endereco` (
-  `codigo` int DEFAULT NULL,
+  `codigo` int DEFAULT NULL, PRIMARY KEY,
   `fk_pessoa` int DEFAULT NULL,
   `fk_endereco` int DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+*/
 
-INSERT INTO pessoa VALUES ( 1, 'HENDRYW')
+INSERT INTO pessoa VALUES ( 1, 'VITORIA');
+
+SELECT * FROM pessoa ( 1, 'VITORIA')
