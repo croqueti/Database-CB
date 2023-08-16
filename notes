@@ -2,15 +2,15 @@ software p/ um programa de autorização de viagens aereos  XD
 
 // para pessoas onde consta sobre a passagem que a pessoa pesquisou e a pessoa que vai viajar
 
-// para onde? (no lo se pendero xd)
+// para onde? (no lo se pendero xd) R$ 7.046,00  C
 
 -> Banco de dados >.<
 -> (>///<) (/^_^)/ \^o^/ #^o^# (o-o);
 
 ===================
 
-- Pessoa
-- Encarregamento
-- Data
-- Destino
-- Prazo Entrega 
+- Pessoa -> Que pede a passagem para viajar
+- Motivo -> Evento 
+- Data -> Validade
+- Destino -> há
+- Agência -> Gol, Azul, Tam
