@@ -25,3 +25,5 @@ modify -- modificar
 SELECT * FROM (pessoa);
 
 SELECT count(*) FROM pessoa;
+
+SELECT id, nome FROM test LIMIT 8;
