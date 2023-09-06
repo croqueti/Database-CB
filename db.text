@@ -25,3 +25,16 @@ INSERT INTO pessoa VALUES ( 1, 'HENDRYW');
 
  /* selecione todos os resgistros da tabela nome_tabela*/
  SELECT * FROM pessoa;
+
+ ===============================
+
+ create database teste;
+
+USE teste; 
+
+CREATE TABLE pessoa(
+id int(11) PRIMARY KEY NOT NULL auto_increment,
+nome varchar(100) NOT NULL UNIQUE
+);
+
+DROP TABLE pessoa;
