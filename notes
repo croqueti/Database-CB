@@ -20,4 +20,8 @@ software p/ um programa de autorização de viagens aereos  XD
 ALTER TABLE -- 
 modify -- modificar
 
+===========
 
+SELECT * FROM (pessoa);
+
+SELECT count(*) FROM pessoa;
