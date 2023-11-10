@@ -39,4 +39,39 @@ nome varchar(100) NOT NULL UNIQUE
 
 DROP TABLE pessoa;
 
-l
+==============================
+
+	CREATE DATABASE jellygjish_project;
+
+	USE jelly;
+
+	CREATE TABLE pessoa(
+	id int(11) PRIMARY KEY NOT NULL auto_increment,
+	nome varchar(4000) NOT NULL
+	);
+
+	SET SQL_MODE="";
+
+	SET SQL_MODE ="STRIC_ALL_TABLES";
+
+	SELECT * FROM (pessoa);
+
+	UPDATE pessoa SET nome= 'VITÓRIA DUTRA SOARES' WHERE id=19;
+
+	SELECT * FROM pessoa WHERE id= 19;
+
+	UPDATE pessoa SET nome= 'VITÓRIA DUTRA SOARES' WHERE id=190;
+
+	SELECT * FROM pessoa WHERE id= 190;
+
+	UPDATE pessoa SET nome= 'VITÓRIA DUTRA SOARES' WHERE id=1900;
+
+	UPDATE pessoa SET nome= 'VITÓRIA DUTRA SOARES' WHERE id >= 2000 and id <=2500;
+
+	SELECT * FROM pessoa WHERE id >= 2000 and id<=2500; 
+	 
+	DELETE FROM pessoa WHERE id > 4500;
+    
+	SELECT count(*) FROM pessoa;
+    
+    DROP database teste;
